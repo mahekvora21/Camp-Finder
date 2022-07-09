@@ -9,9 +9,10 @@ const Campground = require('../models/campground');
 const {isLoggedIn,isAuthor,validateCampground,validateReview}=require('../middleware');
 
 
-router.post('/',validateReview,catchAsync(async(req,res)=>{
+router.post('/',isLoggedIn,validateReview,catchAsync(async(req,res)=>{
     const campground=await Campground.findById(req.params.id);
     const review = new Review(req.body.review);
+    review.author=req.user._id;
     //console.log(campground.reviews);
     campground.reviews.push(review);
     await review.save();
@@ -21,7 +22,7 @@ router.post('/',validateReview,catchAsync(async(req,res)=>{
 }
 ));
 
-router.delete('/:reviewId',catchAsync(async(req,res)=>{
+router.delete('/:reviewId',isLoggedIn,catchAsync(async(req,res)=>{
     //console.log('/campgrounds/:id/reviews/:reviewId')
     const {id,reviewId}=req.params;
     await Campground.findByIdAndUpdate(id,{$pull:{reviews:reviewId}})
