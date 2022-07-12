@@ -29,7 +29,16 @@ const seedDB = async () => {
             author:'62c94c72169c5f72dc796c38',
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
-            image: 'https://source.unsplash.com/collection/483251',
+            images:[
+                {
+                  url: 'https://res.cloudinary.com/dxrjmvmst/image/upload/v1657657458/CampFinder/ma30hc5ww3usdfxwhxvh.jpg',
+                  filename: 'CampFinder/ma30hc5ww3usdfxwhxvh'
+                },
+                {
+                  url: 'https://res.cloudinary.com/dxrjmvmst/image/upload/v1657657458/CampFinder/z9aebogmq4vh5disxdob.jpg',
+                  filename: 'CampFinder/z9aebogmq4vh5disxdob'
+                }
+              ] ,
             description:'TBD',
             price
         })
