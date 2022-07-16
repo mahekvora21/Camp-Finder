@@ -12,15 +12,13 @@
 
   - Create, edit and delete posts and comments
   - Upload campground photos
-  - Display campsite-location on Google Maps
+  - Display campsite-location on Maps
+  - Displays all campsites on a cluster map
   - Search existing camp-sites
 
 * Manage user account with basic functionalities
 
   - Flash messages responding to users' interaction with the app
-
-## Getting Started
-This app contains API secrets and passwords that have been hidden deliberately, so the app cannot be run with its features on your local machine. However, feel free to clone this repository if necessary.
 
 ## Run this project
 * Clone or download this repository
