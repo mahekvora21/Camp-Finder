@@ -19,8 +19,9 @@
 * Manage user account with basic functionalities
 
   - Flash messages responding to users' interaction with the app
-## View website
+## View the webpage
 * The deployed version can be viewed here [click here](https://guarded-sierra-09447.herokuapp.com/)
 ## Run this project
 * Clone or download this repository
 * Install dependencies using npm i
+![Screenshot (26)](https://user-images.githubusercontent.com/72522221/179399026-7e4914ff-df85-4fec-ae19-6e0fa7828685.png)
