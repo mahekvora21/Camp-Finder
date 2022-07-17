@@ -25,3 +25,6 @@
 * Clone or download this repository
 * Install dependencies using npm i
 
+
+https://user-images.githubusercontent.com/72522221/179400733-eddfda94-91f9-4a57-b0da-beb9f4f61b2e.mp4
+
