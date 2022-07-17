@@ -24,4 +24,4 @@
 ## Run this project
 * Clone or download this repository
 * Install dependencies using npm i
-![Screenshot (26)](https://user-images.githubusercontent.com/72522221/179399026-7e4914ff-df85-4fec-ae19-6e0fa7828685.png)
+
