@@ -20,7 +20,7 @@
 
   - Flash messages responding to users' interaction with the app
 ## View the webpage
-* The deployed version can be viewed here [click here](https://guarded-sierra-09447.herokuapp.com/)
+* The deployed version can be viewed [here](https://guarded-sierra-09447.herokuapp.com/)
 ## Run this project
 * Clone or download this repository
 * Install dependencies using npm i
